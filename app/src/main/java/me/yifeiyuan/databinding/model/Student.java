@@ -1,8 +1,8 @@
 package me.yifeiyuan.databinding.model;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
-import android.databinding.ObservableInt;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
+import androidx.databinding.ObservableInt;
 
 import me.yifeiyuan.databinding.BR;
 /**

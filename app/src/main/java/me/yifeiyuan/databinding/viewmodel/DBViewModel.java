@@ -1,9 +1,9 @@
 package me.yifeiyuan.databinding.viewmodel;
 
-import android.arch.lifecycle.MutableLiveData;
-import android.arch.lifecycle.ViewModel;
-import android.databinding.Observable;
-import android.databinding.PropertyChangeRegistry;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
+import androidx.databinding.Observable;
+import androidx.databinding.PropertyChangeRegistry;
 
 import me.yifeiyuan.databinding.model.Student;
 /**

@@ -1,8 +1,8 @@
 package me.yifeiyuan.databinding.inactivity;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import me.yifeiyuan.databinding.R;
 import me.yifeiyuan.databinding.model.Student;

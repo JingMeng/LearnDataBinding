@@ -1,7 +1,7 @@
 package me.yifeiyuan.databinding.model;
 
-import android.databinding.Observable;
-import android.databinding.PropertyChangeRegistry;
+import androidx.databinding.Observable;
+import androidx.databinding.PropertyChangeRegistry;
 
 import java.util.List;
 /**

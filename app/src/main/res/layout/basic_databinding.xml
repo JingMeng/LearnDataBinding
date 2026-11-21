@@ -14,7 +14,7 @@
             type="me.yifeiyuan.databinding.inactivity.EventHandler"/>
     </data>
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="8dp">
@@ -114,12 +114,12 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:onClick="@{()->handler.onShowStudentName()}"
+                android:onClick="@{(view)->handler.onShowStudentName(view, student)}"
                 android:text="点击展示学生名字"
                 />
 
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </layout>
